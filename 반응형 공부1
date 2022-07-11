@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        .header{
+            background-color: red;
+            width: 100%;
+            height: 100px;
+        }
+        .header_logo{
+            width: 12%;
+            display: inline-table;
+            vertical-align: middle;
+            margin: 0 0 0 100px;
+        }
+        .header_menu{
+            width: 60%;
+            display: inline-table;
+            vertical-align: middle;
+            margin: 0 0 0 300px;
+        }
+        .header_menulist{
+            display: inline-table;
+            vertical-align: middle;
+            padding: 0 100px 0 0;
+        }
+        .main{
+            background-color: gray;
+            width: 100%;
+            height: 89.5vh;
+            font-size: 10vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header_logo"><img src="img/네이버__1_100.png" alt="logo"></div>
+            <div class="header_menu">
+                <div class="header_menulist">메뉴1</div>
+                <div class="header_menulist">메뉴2</div>
+                <div class="header_menulist">메뉴3</div>
+                <div class="header_menulist">메뉴4</div>
+                <div class="header_menulist">메뉴5</div>
+            </div>
+       </div>
+    </header>
+    <main>
+        <div class="main">
+            1234567
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
+
+<!-- 데스크탑 1070 -->
+<!-- 태블릿  1070-->
+<!-- 스마트폰  835-->
